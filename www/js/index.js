@@ -286,8 +286,8 @@ $(document).ready(function ()
         location.assign('#login');
     });
 
-    $('.cuerpo-entrada').on('touchend', 'img', function(e){
-
+    $('.cuerpo-entrada').on('click', 'img', function(e){
+        alert('clic');
         PhotoViewer.show($(this).attr('src'), '', {share:false});
     });
 
