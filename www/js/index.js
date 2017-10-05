@@ -286,7 +286,7 @@ $(document).ready(function ()
         location.assign('#login');
     });
 
-    $('.cuerpo-entrada').on('click', function(e){
+    $('#lista-entradas').on('click', function(e){
         console.log('clic');
         PhotoViewer.show($(this).attr('src'), '', {share:false});
     });
