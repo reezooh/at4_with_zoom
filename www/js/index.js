@@ -287,7 +287,7 @@ $(document).ready(function ()
     });
 
     $('.cuerpo-entrada').on('click', function(e){
-        alert('clic');
+        console.log('clic');
         PhotoViewer.show($(this).attr('src'), '', {share:false});
     });
 
